@@ -15,12 +15,15 @@ Command-line program to download videos from YouTube.com and other video sites
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/youtube-dl-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/youtube-dl-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/youtube-dl-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/youtube-dl-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/youtube-dl/badges/version.svg)](https://anaconda.org/conda-forge/youtube-dl)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/youtube-dl/badges/downloads.svg)](https://anaconda.org/conda-forge/youtube-dl)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-youtube--dl-green.svg)](https://anaconda.org/conda-forge/youtube-dl) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/youtube-dl.svg)](https://anaconda.org/conda-forge/youtube-dl) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/youtube-dl.svg)](https://anaconda.org/conda-forge/youtube-dl) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/youtube-dl.svg)](https://anaconda.org/conda-forge/youtube-dl) |
 
 Installing youtube-dl
 =====================
