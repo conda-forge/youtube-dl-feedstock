@@ -1,6 +1,6 @@
 {% set name = "youtube_dl" %}
-{% set version = "2018.7.4" %}
-{% set sha256 = "036ef4b85db7a7589fa7183a9bde04cddbe97b577cfcf119cca292c871c8105e" %}
+{% set version = "2018.7.10" %}
+{% set sha256 = "e4f81d38d2c7b8fa6fa069cd0f0096835dcaab91e74a4ca760625b76e0c614b4" %}
 
 package:
   name: {{ name|replace('_', '-') }}
