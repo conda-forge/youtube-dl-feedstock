@@ -10,13 +10,14 @@ source:
   sha256: 08d91f0e4dd2d4608a677aa68896b272dcd243a966e161643242203c291b051e
 
 build:
-  number: 0
+  noarch: python
+  number: 1
   entry_points:
     - youtube-dl = youtube_dl:main
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
-  build:
+  host:
     - python
     - pip
   run:
