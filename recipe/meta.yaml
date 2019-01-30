@@ -13,7 +13,7 @@ build:
   number: 0
   entry_points:
     - youtube-dl = youtube_dl:main
-  script: python -m pip install --no-deps --ignore-installed .
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   build:
