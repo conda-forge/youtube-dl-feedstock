@@ -1,5 +1,5 @@
 {% set name = "youtube_dl" %}
-{% set version = "2019.7.30" %}
+{% set version = "2019.8.2" %}
 
 package:
   name: youtube-dl
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/y/youtube_dl/youtube_dl-{{ version }}.tar.gz
-  sha256: 41ee1e4247ed3810d9730c54b25ebe4ca19c1ca7373e3de05a3dc8e8884ca475
+  sha256: 73b8528782f507dc506422557c940842e1e514ffaf0b010d82642cb2ceeefdf7
 
 build:
   number: 0
