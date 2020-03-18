@@ -10,7 +10,7 @@ source:
   sha256: fe617fa21730da7b5200b7655737c54ba4e4cf0978a2a7adcfb2ea6c679b7f8a
 
 build:
-  number: 0
+  number: 1
   entry_points:
     - youtube-dl = youtube_dl:main
   script: {{ PYTHON }} -m pip install . --no-deps -vv
