@@ -5,7 +5,7 @@ Home: http://rg3.github.io/youtube-dl/
 
 Package license: Public Domain
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: YouTube video downloader
 
