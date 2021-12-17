@@ -11,16 +11,17 @@ source:
 
 build:
   number: 0
+  noarch: python
   entry_points:
     - youtube-dl = youtube_dl:main
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
   run:
-    - python
+    - python >=3.6
 
 test:
   requires:
@@ -36,7 +37,7 @@ test:
 
 about:
   home: http://rg3.github.io/youtube-dl/
-  license: Public Domain
+  license: LicenseRef-Public-Domain
   license_family: OTHER
   license_url: http://unlicense.org
   license_file: LICENSE
