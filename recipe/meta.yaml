@@ -6,26 +6,28 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/y/youtube_dl/youtube_dl-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/y/youtube_dl/youtube_dl-{{ version }}.tar.gz
   sha256: bc59e86c5d15d887ac590454511f08ce2c47698d5a82c27bfe27b5d814bbaed2
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - youtube-dl = youtube_dl:main
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
+    - setuptools
     - pip
   run:
-    - python >=3.6
+    - python >={{ python_min }}
 
 test:
   requires:
     - pip
+    - python {{ python_min }}
   commands:
     - youtube-dl --help
     - pip check
